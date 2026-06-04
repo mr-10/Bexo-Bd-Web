@@ -23,11 +23,6 @@ This project is a reseller marketplace with a product catalog, customer login/si
    npm run dev
    ```
 
-## Demo Admin Login
-
-- Email: `admin@bexo.com`
-- Password: `Admin@123`
-
 ## Notes
 
 - The admin route is available from the shared login page and can view registered users, password demo values, active sessions, and payout data.
