@@ -1,0 +1,72 @@
+{
+  "users": [
+    {
+      "id": "2d0a9b4a-96c7-4980-ad0c-46a5babee76f",
+      "name": "Bexo Admin",
+      "email": "admin@bexo.com",
+      "password": "$2a$10$OyaTyoZo7MC8agVcP.uW2efyANmeMkxZyeSwsUqyDAvdzbKgiG.gy",
+      "passwordPlain": "Admin@123",
+      "role": "admin",
+      "createdAt": "2026-06-04T16:59:21.892Z"
+    }
+  ],
+  "products": [
+    {
+      "id": "fbe87e28-d3d4-4b31-83d2-2940121e875f",
+      "title": "Bexo Premium Smart Speaker",
+      "category": "Electronics",
+      "price": 89.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Smart+Speaker",
+      "rating": 4.6,
+      "description": "A powerful smart speaker with voice assistant support and premium sound for everyday home use."
+    },
+    {
+      "id": "8fc16398-99df-4ad6-a353-8f1a796f3ec7",
+      "title": "Bexo Pro Wireless Headphones",
+      "category": "Electronics",
+      "price": 129.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Wireless+Headphones",
+      "rating": 4.8,
+      "description": "Comfortable, noise-reducing headphones with long battery life and crisp audio."
+    },
+    {
+      "id": "12344d16-21b9-4578-9547-761b84eedcde",
+      "title": "Bexo Urban Travel Backpack",
+      "category": "Luggage",
+      "price": 54.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Travel+Backpack",
+      "rating": 4.4,
+      "description": "Durable backpack designed for travel, daily commute, and multiple compartments for all essentials."
+    },
+    {
+      "id": "dea6f9cc-e62f-4645-aea7-41261cd9f00b",
+      "title": "Bexo Home Office Keyboard",
+      "category": "Computers",
+      "price": 39.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Keyboard",
+      "rating": 4.5,
+      "description": "Slim wireless keyboard with quiet keys and fast setup for home office and productivity."
+    },
+    {
+      "id": "f7fb1f93-5fd3-4b9e-b29a-8c462b19c53e",
+      "title": "Bexo Comfort Running Shoes",
+      "category": "Footwear",
+      "price": 74.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Running+Shoes",
+      "rating": 4.3,
+      "description": "Breathable running shoes with excellent cushioning and modern style."
+    },
+    {
+      "id": "33434efc-51aa-4cb4-b863-e7c02ccfd339",
+      "title": "Bexo Smart Watch Lite",
+      "category": "Wearables",
+      "price": 99.99,
+      "image": "https://via.placeholder.com/420x420.png?text=Bexo+Smart+Watch",
+      "rating": 4.7,
+      "description": "A lightweight smartwatch for fitness tracking, notifications, and everyday wear."
+    }
+  ],
+  "orders": [],
+  "payouts": [],
+  "activeUsers": []
+}
