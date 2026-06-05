@@ -321,11 +321,11 @@ app.post('/api/logout', authMiddleware, async (req, res) => {
   res.json({ success: true });
 });
 
-app.listen(PORT, () => {
-  console.log(`Backend running on http://localhost:${PORT}`);
-});
-
-initDb().catch((error) => {
+initDb().then(() => {
+  app.listen(PORT, () => {
+    console.log(`Backend running on http://localhost:${PORT}`);
+  });
+}).catch((error) => {
   console.error('Failed to initialize database:', error);
   process.exit(1);
 });
