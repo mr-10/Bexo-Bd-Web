@@ -141,7 +141,7 @@ function safeUser(user) {
   };
 }
 
-app.use(cors({ origin: 'http://localhost:5173', credentials: true }));
+app.use(cors({ origin: true, credentials: true }));
 app.use(express.json());
 
 app.post('/api/signup', async (req, res) => {
